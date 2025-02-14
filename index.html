@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratham | Panipat</title>
+  <link rel="icon" href="favicon.ico"><link href="style.css" rel="stylesheet"></head>
+  <body
+    x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }"
+    x-init="
+         darkMode = JSON.parse(localStorage.getItem('darkMode'));
+         $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
+    :class="{'b eh': darkMode === true}"
+  >
+    
+
+    <!-- ===== Header End ===== -->
+
+    <main>
+      <!-- ===== Hero Start ===== -->
+      <section class="gj do ir hj sp jr i pg">
+        <!-- Hero Images -->
+        <div class="xc fn zd/2 2xl:ud-w-187.5 bd 2xl:ud-h-171.5 h q r">
+          <img src="images/shape-01.svg" alt="shape" class="xc 2xl:ud-block h t -ud-left-[10%] ua" />
+          <img src="images/shape-02.svg" alt="shape" class="xc 2xl:ud-block h u p va" />
+          <img src="images/shape-03.svg" alt="shape" class="xc 2xl:ud-block h v w va" />
+          <img src="images/shape-04.svg" alt="shape" class="h q r" />
+          <img src="images/hero.png" alt="Woman" class="h q r ua" />
+        </div>
+
+        <!-- Hero Content -->
+        <div class="bb ze ki xn 2xl:ud-px-0">
+          <div class="tc _o">
+            <div class="animate_left jn/2">
+              <h1 class="fk vj zp or kk wm wb">Welcome to PRATHAM Test Prep – Now in Panipat!</h1>
+              
+              <p class="fq">
+                PRATHAM, a premier educational institute, is proud to announce the opening of its new branch in Panipat, Haryana! As we expand, our mission remains the same – to empower students with quality education and expert guidance to help them achieve their academic goals.
+              </p>
+
+              <div class="tc tf yo zf mb">
+                 
+
+                <span class="tc sf">
+                  <a href="#" class="inline-block ek xj kk wm"> Call us +91 70658 76565 </a>
+                  <span class="inline-block">For any question or concern</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Hero End ===== -->
+<section style="margin: 40px 0;">
+  <img style="width: 100%;" src="1.jpg" alt="">
+</section>
+      <!-- ===== Small Features Start ===== -->
+      <section id="features">
+        <div class="bb ze ki yn 2xl:ud-px-12.5">
+          <div class="tc uf zo xf ap zf bp mq">
+            <!-- Small Features Item -->
+            <div class="animate_top kn to/3 tc cg oq">
+              <div class="tc wf xf cf ae cd rg mh">
+                <img src="images/icon-01.svg" alt="Icon" />
+              </div>
+              <div>
+                <h4 class="ek yj go kk wm xb">E-Learning System</h4>
+                <p>PRATHAM E-learning comprises of student online Dashboard  .</p>
+              </div>
+            </div>
+
+            <!-- Small Features Item -->
+            <div class="animate_top kn to/3 tc cg oq">
+              <div class="tc wf xf cf ae cd rg nh">
+                <img src="images/icon-02.svg" alt="Icon" />
+              </div>
+              <div>
+                <h4 class="ek yj go kk wm xb">High Density of Top Rankers</h4>
+                <p>With over 10,000 final selections in 200+ colleges.</p>
+              </div>
+            </div>
+
+            <!-- Small Features Item -->
+            <div class="animate_top kn to/3 tc cg oq">
+              <div class="tc wf xf cf ae cd rg oh">
+                <img src="images/icon-03.svg" alt="Icon" />
+              </div>
+              <div>
+                <h4 class="ek yj go kk wm xb">Regular Mock Tests</h4>
+                <p> The mock tests are real-time learning experiences  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Small Features End ===== -->
+
+      <!-- ===== About Start ===== -->
+      <section class="ji gp uq 2xl:ud-py-35 pg">
+        <div class="bb ze ki xn wq">
+          <div class="tc wf gg qq">
+            <!-- About Images -->
+            <div class="animate_left xc gn gg jn/2 i">
+              <div>
+                <img src="images/shape-05.svg" alt="Shape" class="h -ud-left-5 x" />
+                <img src="images/about-01.png" alt="About" class="ib" />
+                <img src="images/about-02.png" alt="About" />
+              </div>
+              <div>
+                <img src="images/shape-06.svg" alt="Shape" />
+                <img src="images/about-03.png" alt="About" class="ob gb" />
+                <img src="images/shape-07.svg" alt="Shape" class="bb" />
+              </div>
+            </div>
+
+            <!-- About Content -->
+            <div class="animate_right jn/2">
+              <h4 class="ek yj mk gb">Why Choose PRATHAM Panipat?</h4>
+              <h2 class="fk vj zp pr kk wm qb">PRATHAM Panipat?</h2>
+
+                <p>✔ Expert Faculty: Learn from experienced educators with a track record of success. <br>
+                  ✔ Comprehensive Study Material: Updated resources tailored to the latest syllabus. <br>
+                  ✔ Regular Mock Tests & Doubt Sessions: Boost confidence and improve performance. <br>
+                  ✔ Personalized Guidance: Career counseling and one-on-one mentorship. <br>
+                  ✔ Modern Infrastructure: A comfortable, focused, and technology-driven learning environment.</p>
+
+               
+
+               
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== About End ===== -->
+
+       
+
+
+      <section style="margin: 60px 0;">
+ 
+            
+            <div id="carousel-container" 
+            style="position: relative; width: 100%; max-width: 1600px; margin: auto; overflow: hidden;">
+         <div id="carousel" style="display: flex; transition: transform 0.5s ease-in-out; cursor: grab;">
+           <img src="b5 (1).jpg" alt="Image 1" style="width: 100%; min-width: 100%;">
+           <img src="newbp.png" alt="Image 2" style="width: 100%; min-width: 100%;">
+            
+         </div>
+         <button onclick="moveSlide(-1)" 
+                 style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%);
+                        background: rgba(0, 0, 0, 0.5); color: white; border: none; 
+                        padding: 10px; cursor: pointer;">&#10094;</button>
+         <button onclick="moveSlide(1)" 
+                 style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%);
+                        background: rgba(0, 0, 0, 0.5); color: white; border: none; 
+                        padding: 10px; cursor: pointer;">&#10095;</button>
+       </div>
+
+
+      </section>
+
+
+
+
+      <!-- ===== Services Start ===== -->
+      <section class="lj tp kr">
+        <!-- Section Title Start -->
+        <div
+          x-data="{ sectionTitle: `Our Programs`   }"
+        >
+          <div class="animate_top bb ze rj ki xn vq">
+    <h2
+            x-text="sectionTitle"
+            class="fk vj pr kk wm on/5 gq/2 bb _b"
+    >
+    </h2>
+    <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+</div>
+
+
+        </div>
+        <!-- Section Title End -->
+
+        <div class="bb ze ki xn yq mb en">
+          <div class="wc qf pn xo ng">
+            <!-- Service Item -->
+            <div class="animate_top sg oi pi zq ml il am cn _m">
+              <img src="images/icon-04.svg" alt="Icon" />
+              <h4 class="ek zj kk wm nb _b">2 Year Program</h4>
+              <p>• 600+ hours of training
+                • Interactive Online Learning portal
+                • 100+ Mock Tests</p>
+            </div>
+
+            <!-- Service Item -->
+            <div class="animate_top sg oi pi zq ml il am cn _m">
+              <img src="images/icon-05.svg" alt="Icon" />
+              <h4 class="ek zj kk wm nb _b">1 Year Program
+                </h4>
+              <p> • 450+ hours of training
+                • Personalized Mentorship
+                • 65+ recorded Concept Videos</p>
+            </div>
+
+            <!-- Service Item -->
+            <div class="animate_top sg oi pi zq ml il am cn _m">
+              <img src="images/icon-06.svg" alt="Icon" />
+              <h4 class="ek zj kk wm nb _b">Online Program
+                </h4>
+              <p> • Convenience and Flexibility
+                • More interaction and greater ability to concentrate
+                • Avoid commuting
+                • Personal Mentorship</p>
+            </div>
+
+            <!-- Service Item -->
+            <div class="animate_top sg oi pi zq ml il am cn _m">
+              <img src="images/icon-07.svg" alt="Icon" />
+              <h4 class="ek zj kk wm nb _b">Retaker Program</h4>
+              <p> 
+                • 1 on 1 Mentorship Program
+                • Mock Tests based on Latest pattern
+                • Special classes for DU, IPM and CLAT</p>
+            </div>
+
+            <!-- Service Item -->
+            <div class="animate_top sg oi pi zq ml il am cn _m">
+              <img src="images/icon-05.svg" alt="Icon" />
+              <h4 class="ek zj kk wm nb _b">Crash Course</h4>
+              <p> 
+                • 250 + hours of intensive Training
+                • 200+ Tests to boost performance
+                • Current Affairs and Quizzes</p>
+            </div>
+
+            <!-- Service Item -->
+            <div class="animate_top sg oi pi zq ml il am cn _m">
+              <img src="images/icon-06.svg" alt="Icon" />
+              <h4 class="ek zj kk wm nb _b">International Education</h4>
+              <p> 
+                • Coaching in SAT ® with complete application assistance
+                • Class for English and Maths
+                • 15 real time mock tests and result analysis</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Services End ===== -->
+
+      <!-- ===== Pricing Table Start ===== -->
+      <section x-data="setup()" class="i pg fh rm ji gp uq">
+        <!-- Bg Shapes -->
+        <img src="images/shape-06.svg" alt="Shape" class="h aa y" />
+        <img src="images/shape-03.svg" alt="Shape" class="h ca u" />
+        <img src="images/shape-07.svg" alt="Shape" class="h w da ee" />
+        <img src="images/shape-12.svg" alt="Shape" class="h p s" />
+        <img src="images/shape-13.svg" alt="Shape" class="h r q" />
+
+        <!-- Section Title Start -->
+        <div
+          x-data="{ sectionTitle: ` Our Vision`, sectionTitleText: `PRATHAM is a steadfast entity that visions to become a trustworthy trail for students between age group of 15 and 18 years. Its staunch approach is to lead students across a career pavement that plainly resonates with their aptitude and skills. PRATHAM sticks by the resolute step to mentor students on concrete grounds of ethics, untangling their career dilemmas.`}"
+        >
+          <div class="animate_top bb ze rj ki xn vq">
+    <h2
+            x-text="sectionTitle"
+            class="fk vj pr kk wm on/5 gq/2 bb _b"
+    >
+    </h2>
+    <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+</div>
+
+
+        </div>
+        <!-- Section Title End -->
+
+        <!-- Pricing switcher -->
+         
+
+        <!-- Pricing Table -->
+         
+      </section>
+      <!-- ===== Pricing Table End ===== -->
+
+      <!-- ===== Projects Start ===== -->
+     
+      <!-- ===== Projects End ===== -->
+
+      <!-- ===== Testimonials Start ===== -->
+      <section class="hj rp hr" style="margin-top: 40px;">
+        <!-- Section Title Start -->
+        <div
+          x-data="{ sectionTitle: `STUDENTS' Testimonial` }"
+        >
+          <div class="animate_top bb ze rj ki xn vq">
+    <h2
+            x-text="sectionTitle"
+            class="fk vj pr kk wm on/5 gq/2 bb _b"
+    >
+    </h2>
+    <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+</div>
+
+
+        </div>
+        <!-- Section Title End -->
+
+        <div class="bb ze ki xn ar">
+          <div class="animate_top jb cq">
+            <!-- Slider main container -->
+            <div class="swiper testimonial-01">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="i hh rm sg vk xm bi qj">
+                    <!-- Border Shape -->
+                    <span class="rc je md/2 gh xg h q r"></span>
+                    <span class="rc je md/2 mh yg h q p"></span>
+
+                    <div class="tc sf rn tn un zf dp">
+                       
+
+                      <div>
+                        <img src="images/icon-quote.svg" alt="Quote" />
+                        <p class="ek ik xj _p kc fb">
+                          My experience has been really good over the past one year of my online course, The teachers were very friendly and always ready to help in any doubt we asked anytime and we all students over here in pratham were always ahead than many children across india , one step ahead than them . The content of pratham test prep is highly appreciated and valued . The whole curriculum and course is designed very precisely and professionally, the contents of all the topics were extremely helpful in CUET preparation as everything was explained in a proper simplified and easily understandable way . The mock tests were a guiding path to success in CUET . The mock tests helped us to know about our position and on which topics to improve ourselves. In the exam . Overall all the faculty members have helped us in counselling us and giving us the right guidance to make best decisions and to crack the exam and I am extremely grateful for that .
+                        </p>
+
+                        <div class="tc yf vf">
+                          <div>
+                            <span class="rc ek xj kk wm zb">Divyaraj Singh</span>
+                            <span class="rc">BA Hons in Economics and Political science in Delhi Campus [HANSRAJ]
+                              St. Joseph's co-ed, E6 arera colony, Bhopal</span>
+                          </div>
+
+                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- If we need navigation -->
+              <div class="tc wf xf fg jb">
+                <div
+                  class="swiper-button-prev c tc wf xf ie ld rg _g dh pf ml vr hh rm tl zm rl ym"
+                >
+                  <svg class="th lm" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M3.52366 7.83336L7.99366 12.3034L6.81533 13.4817L0.333663 7.00002L6.81533 0.518357L7.99366 1.69669L3.52366 6.16669L13.667 6.16669L13.667 7.83336L3.52366 7.83336Z"
+                      fill=""
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="swiper-button-next c tc wf xf ie ld rg _g dh pf ml vr hh rm tl zm rl ym"
+                >
+                  <svg class="th lm" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" fill="" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Testimonials End ===== -->
+
+      <!-- ===== Counter Start ===== -->
+      
+      <!-- ===== Counter End ===== -->
+
+      <!-- ===== Clients Start ===== -->
+       
+      <!-- ===== Clients End ===== -->
+
+      <!-- ===== Blog Start ===== -->
+       
+      <!-- ===== Blog End ===== -->
+
+      <!-- ===== Contact Start ===== -->
+      
+      <!-- ===== Contact End ===== -->
+
+      <!-- ===== CTA Start ===== -->
+      <section class="i pg gh ji">
+  <!-- Bg Shape -->
+  <img class="h p q" src="images/shape-16.svg" alt="Bg Shape" />
+
+  <div class="bb ye i z-10 ki xn dr">
+    <div class="tc uf sn tn un gg">
+      <div class="animate_left to/2">
+        <h2 class="fk vj zp pr lk ac">
+          📍 Join Our New Panipat Branch Today!
+        </h2>
+        <p class="lk">
+           
+          🎯 Limited Seats Available – Enroll Now!
+          📞 Call us at [+91 70658 76565  ] | 📧 Email us at [info@prathamonline.com
+          ]
+        </p>
+      </div>
+      <div class="animate_right bf">
+        <a href="#" class="vc ek kk hh rg ol il cm gi hi">
+            Get Started Now
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- ===== CTA End ===== -->
+    </main>
+    <!-- ===== Footer Start ===== -->
+    <footer>
+  <div class="bb ze ki xn 2xl:ud-px-0">
+    <!-- Footer Top -->
+    <div class="ji gp">
+      <div class="tc uf ap gg fp">
+        <div class="animate_top zd/2 to/4">
+          <a href="index.html">
+            <img src="pratham-logo.png" alt="Logo" class="om" />
+            <img src="pratham-logo.png" alt="Logo" class="xc nm" /> 
+             
+          </a>
+
+          <p class="lc fb">PRATHAM is an educational institute that remains adamant in emerging as one of the leading institutes, enhancing the budding youth into successful individuals.</p>
+
+         
+            
+            
+            
+        </div>
+
+        <div class="vd ro tc sf rn un gg vn">
+          <div class="animate_top">
+            <h4 class="kk wm tj ec">Top Courses</h4>
+
+            <ul>
+              <li><a href="#" class="sc xl vb"> CUET
+              
+                
+                 
+                </a></li>
+              <li><a href="#" class="sc xl vb">   CLAT</a></li>
+              <li>
+                <a href="#" class="sc xl vb">
+                  IIM Indore, IPM
+                   
+                </a>
+              </li>
+              <li><a href="#" class="sc xl vb">IIM Rohtak, IPM</a></li>
+              <li><a href="#" class="sc xl vb"> NLU Delhi</a></li>
+            </ul>
+          </div>
+
+          <div class="animate_top">
+            <h4 class="kk wm tj ec">Prep Module</h4>
+
+            <ul>
+              <li><a href="#" class="sc xl vb"> 2 Year Program
+          
+              
+                 
+                 
+                 </a></li>
+              <li><a href="#" class="sc xl vb">       1 Year Program</a></li>
+              <li><a href="#" class="sc xl vb">   Online Program</a></li>
+              <li><a href="#" class="sc xl vb">International Education</a></li>
+              <li><a href="#" class="sc xl vb">Correspondence Course</a></li>
+              
+            </ul>
+          </div>
+
+    
+
+          <div class="animate_top">
+            <h4 class="kk wm tj ec">Get In Touch</h4>
+            <p class="ac qe">Pratham Test Prep</p>
+            <p>SCF 36, Above Dominos Pizza,
+              <br> Sector 11-12,Part 1 HUDA, <br>
+              Panipat - 132103 - Haryana
+              
+               </p>
+              <p>Call us at: +91 70658 76565</p>
+              <p>Mail: info@prathamonline.com</p>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Top -->
+
+    <!-- Footer Bottom -->
+    <div class="bh ch pm tc uf sf yo wf xf ap cg fp bj">
+      <div class="animate_top">
+        <ul class="tc wf gg">
+           
+          <li><a href="#" class="xl">✆  70658 76565</a></li>
+          <li><a href="#" class="xl"> ✉️ INFO@PRATHAMONLINE.COM</a></li>
+        </ul>
+      </div>
+
+      <div class="animate_top">
+        <p>&copy; Copyright IIFM Ltd. | All Right Reserved</p>
+      </div>
+    </div>
+    <!-- Footer Bottom -->
+  </div>
+</footer>
+
+    <!-- ===== Footer End ===== -->
+
+    <!-- ====== Back To Top Start ===== -->
+    <button
+  class="xc wf xf ie ld vg sr gh tr g sa ta _a"
+  @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+  @scroll.window="scrollTop = (window.pageYOffset > 50) ? true : false"
+  :class="{ 'uc' : scrollTop }"
+>
+  <svg class="uh se qd" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" />
+  </svg>
+</button>
+
+    <!-- ====== Back To Top End ===== -->
+
+    <script>
+
+
+
+
+
+
+
+        let index = 0, startX = 0, isDragging = false;
+      
+        function moveSlide(step) {
+          let slides = document.getElementById("carousel");
+          let totalSlides = slides.children.length;
+          index = (index + step + totalSlides) % totalSlides;
+          slides.style.transform = `translateX(-${index * 100}%)`;
+        }
+      
+        const carousel = document.getElementById("carousel");
+      
+        carousel.addEventListener("mousedown", (e) => {
+          isDragging = true;
+          startX = e.clientX;
+        });
+      
+        carousel.addEventListener("mouseup", (e) => {
+          if (!isDragging) return;
+          let diff = e.clientX - startX;
+          if (diff > 50) moveSlide(-1); // Swipe Right
+          if (diff < -50) moveSlide(1); // Swipe Left
+          isDragging = false;
+        });
+      
+        carousel.addEventListener("mouseleave", () => isDragging = false);
+
+      //  Pricing Table
+      const setup = () => {
+        return {
+          isNavOpen: false,
+
+          billPlan: 'monthly',
+
+          plans: [
+            {
+              name: 'Starter',
+              price: {
+                monthly: 29,
+                annually: 29 * 12 - 199,
+              },
+              features: ['400 GB Storaget', 'Unlimited Photos & Videos', 'Exclusive Support'],
+            },
+            {
+              name: 'Growth Plan',
+              price: {
+                monthly: 59,
+                annually: 59 * 12 - 100,
+              },
+              features: ['400 GB Storaget', 'Unlimited Photos & Videos', 'Exclusive Support'],
+            },
+            {
+              name: 'Business',
+              price: {
+                monthly: 139,
+                annually: 139 * 12 - 100,
+              },
+              features: ['400 GB Storaget', 'Unlimited Photos & Videos', 'Exclusive Support'],
+            },
+          ],
+        };
+      };
+    </script>
+  <script defer src="bundle.js"></script></body>
+</html>
